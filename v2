@@ -2743,6 +2743,4 @@ end
 
 if Whitelisted == false then
  game.Players.LocalPlayer:Kick("This Script was made by LuckyIIIV. Are you actually trying to use my Script? LMFAO")
-end")
-
-https://raw.githubusercontent.com/LuckyIIIV/MLV2/main/v2
+end
