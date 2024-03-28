@@ -1,4 +1,4 @@
-local HWID = game:GetService("RbxAnalyticsService"):GetClientId())
+local HWID = game:GetService("RbxAnalyticsService"):GetClientId();
 local WhitelistedHWIDs = loadstring(game:HttpGet("https://pastebin.com/raw/qfNp3WUp"))()
 local Whitelisted = false
 
