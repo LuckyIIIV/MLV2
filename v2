@@ -2145,17 +2145,6 @@ local switch1 = KillingTab:AddSwitch("Auto Kill", function(bool)
 		    removeFromWhitelist(player)
 		end
 	end
-	
-	if bool == true then
-		if not isRunning then
-		    isRunning = true
-		    main()
-		end
-	end
-
-	if bool == false then
-	    isRunning = false
-	end
 
 	addToWhitelistButton.MouseButton1Click:Connect(addToWhitelistCode)
     removeFromWhitelistButton.MouseButton1Click:Connect(removeFromWhitelistCode)
