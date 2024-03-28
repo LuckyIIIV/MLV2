@@ -2723,7 +2723,6 @@ CreditsTab:AddLabel("Youtube Channels: Lucky_PlaysYT, beamedify")
 CreditsTab:AddLabel("Discords: luckyiiiv, ben1x1x1x1x")
 
 CreditsTab:AddLabel("NOTE: Only LuckyIIIV, BeamedIIIV and SulIIIV are real!")
-end
 
 if Whitelisted == false then
  game.Players.LocalPlayer:Kick("This Script was made by LuckyIIIV. Are you actually trying to use my Script? LMFAO")
