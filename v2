@@ -2070,7 +2070,7 @@ end
 local KillingTab = window:AddTab("Killing") -- Name of tab
 KillingTab:Show() -- shows the tab
 
-Killing:AddLabel("Script made by LuckyIIIV and BeamedIIIV")
+KillingTab:AddLabel("Script made by LuckyIIIV and BeamedIIIV")
 
 local Players = game:GetService("Players")
 local RunService = game:GetService("RunService")
